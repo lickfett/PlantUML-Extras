@@ -1,0 +1,4 @@
+AzureExtrasEntityColoring(AzureExtrasContainerApp)
+!definelong AzureExtrasContainerApp(e_alias, e_label, e_techn) 
+AzureExtrasEntity(e_alias, e_label, e_techn, AzurePuml/Containers/AzureContainerApp.png, Azure Container App)
+!enddefinelong

@@ -1,0 +1,23 @@
+!define AzurePuml https://raw.githubusercontent.com/plantuml-stdlib/Azure-PlantUML/release/2-2/dist
+
+!define TECHN_FONT_SIZE 11
+!define DEFAULT_BG_COLOR #f2f2f2
+!define AZURE_BORDER_COLOR #3C7FC0
+
+hide <<extra>> stereotype
+
+skinparam defaultFontName "Segoe UI"
+skinparam defaultTextAlignment center
+
+!definelong AzureExtrasEntityColoring(e_stereo)
+skinparam rectangle<<e_stereo>> {
+    BackgroundColor DEFAULT_BG_COLOR
+    BorderColor AZURE_BORDER_COLOR
+}
+!enddefinelong
+
+!definelong AzureExtrasEntity(e_alias, e_label, e_techn, e_img, e_stereo)
+rectangle "==e_label\n//<size:TECHN_FONT_SIZE>e_stereo</size>//\n<img:e_img{scale=0.8}>\n//<size:TECHN_FONT_SIZE>e_techn</size>//" <<e_stereo>> <<extra>> as e_alias
+!enddefinelong
+
+

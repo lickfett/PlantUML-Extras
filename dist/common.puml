@@ -12,3 +12,7 @@ skinparam rectangle<<e_stereo>> {
     BorderColor DEFAULT_BORDER_COLOR
 }
 !enddefinelong
+
+!definelong ExtrasEntity(e_alias, e_label, e_techn, e_img, e_stereo)
+rectangle "==e_label\n//<size:TECHN_FONT_SIZE>e_stereo</size>//\n<img:e_img{scale=0.8}>\n//<size:TECHN_FONT_SIZE>e_techn</size>//" <<e_stereo>> <<extra>> as e_alias
+!enddefinelong

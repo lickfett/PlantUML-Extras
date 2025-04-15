@@ -1,0 +1,4 @@
+ZuploEntityColoring(ZuploApiGateway)
+!definelong ZuploApiGateway(e_alias, e_label, e_techn)
+ExtrasEntity(e_alias, e_label, e_techn, Extras/misc/zuplo/zuplo.png, Zuplo API Gateway)
+!enddefinelong

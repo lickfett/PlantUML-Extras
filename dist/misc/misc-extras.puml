@@ -1,0 +1,7 @@
+!definelong ZuploEntityColoring(e_stereo)
+skinparam rectangle<<e_stereo>> {
+    BackgroundColor AZURE_BG_COLOR
+    BorderColor #FF007F
+}
+!enddefinelong
+

@@ -1,8 +1,8 @@
 @startuml Extras Sample
 
 ' swap comments for local
-!define Extras https://raw.githubusercontent.com/lickfett/PlantUML-Extras/refs/heads/main
-' !define Extras dist
+' !define Extras https://raw.githubusercontent.com/lickfett/PlantUML-Extras/refs/heads/main/dist
+!define Extras dist
 
 !includeurl Extras/azure/azure-extras.puml
 !includeurl Extras/azure/containers/all.puml
@@ -12,7 +12,7 @@
 !includeurl Extras/sketchy.puml
 
 
-ZuploApiGateway(lickfett_apim, "api-example-net", "Free Tier")
+ZuploApiGateway(zuplo, "api-example-net", "Free Tier")
 
 AzureExtrasContainerApp(ca1, "ca-example-dev", "FastAPI / Python")
 

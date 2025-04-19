@@ -9,6 +9,7 @@
 !includeurl Extras/misc/misc-extras.puml
 !includeurl Extras/misc/zuplo/all.puml
 !includeurl Extras/common.puml
+!includeurl Extras/azure/web.puml
 !includeurl Extras/sketchy.puml
 
 
@@ -19,5 +20,8 @@ AzureExtrasContainerApp(ca1, "ca-example-dev", "FastAPI / Python")
 AzureExtrasContainerApp(ca2, "ca-example-dev", "FastAPI / Python", AZURE_SYMBOL_COLOR)
 
 AzureExtrasContainerApp(ca3, "ca-example-dev", "FastAPI / Python", #000000)
+
+AzureExtrasApiManagement(apim1, "api-example-net", "Free Tier", #000000)
+AzureExtrasApiManagement(apim2, "api-example-net", "Free Tier")
 
 @enduml

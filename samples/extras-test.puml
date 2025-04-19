@@ -6,6 +6,7 @@
 
 !includeurl Extras/azure/azure-extras.puml
 !includeurl Extras/azure/containers.puml
+!includeurl Extras/azure/databases.puml
 !includeurl Extras/misc/misc-extras.puml
 !includeurl Extras/misc/zuplo/all.puml
 !includeurl Extras/common.puml
@@ -23,5 +24,8 @@ AzureExtrasContainerApp(ca3, "ca-example-dev", "FastAPI / Python", #000000)
 
 AzureExtrasApiManagement(apim1, "api-example-net", "Free Tier", #000000)
 AzureExtrasApiManagement(apim2, "api-example-net", "Free Tier")
+
+AzureExtrasCosmosDb(cosmos, "cosmos-db", "Serverless Tier")
+AzureExtrasSqlDatabase(sql, "sql-db", "Basic / 5 DTUs")
 
 @enduml

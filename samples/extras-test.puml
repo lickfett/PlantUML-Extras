@@ -7,10 +7,11 @@
 !includeurl Extras/azure/azure-extras.puml
 !includeurl Extras/azure/containers.puml
 !includeurl Extras/azure/databases.puml
+!includeurl Extras/azure/storage.puml
+!includeurl Extras/azure/web.puml
 !includeurl Extras/misc/misc-extras.puml
 !includeurl Extras/misc/zuplo/all.puml
 !includeurl Extras/common.puml
-!includeurl Extras/azure/web.puml
 !includeurl Extras/sketchy.puml
 
 
@@ -27,5 +28,8 @@ AzureExtrasApiManagement(apim2, "api-example-net", "Free Tier")
 
 AzureExtrasCosmosDb(cosmos, "cosmos-db", "Serverless Tier")
 AzureExtrasSqlDatabase(sql, "sql-db", "Basic / 5 DTUs")
+
+AzureExtrasBlobStorage(storage, "storage-account", "Standard LRS")
+AzureExtrasBlobStorage(storage2, "storage-account", "Standard LRS", #2322f2)
 
 @enduml

@@ -32,9 +32,9 @@ pBjoVZGWVEryLzBBPUO4aiF-FClVgjbrbXRvZNB5Ha8WValYGsX5_Wtz1m
 
 AzureExtrasEntityColoring(AzureExtrasDNS)
 !definelong AzureExtrasDNS(e_alias, e_label, e_techn) 
-AzureExtrasColorEntity(e_alias, e_label, e_techn, AzurePuml/Networking/AzureDNS.png, DNS)
+AzureExtrasColorEntity(e_alias, e_label, e_techn, AzurePuml/Networking/AzureDNS.png, Azure DNS)
 !enddefinelong
 
 !definelong AzureExtrasDNS(e_alias, e_label, e_techn, e_color) 
-AzureExtrasMonoEntity(e_alias, e_label, e_techn, e_color, AzureDNSSprite, DNS)
+AzureExtrasMonoEntity(e_alias, e_label, e_techn, e_color, AzureDNSSprite, Azure DNS)
 !enddefinelong

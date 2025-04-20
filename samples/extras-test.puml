@@ -12,6 +12,7 @@
 !includeurl Extras/azure/web.puml
 !includeurl Extras/misc/misc-extras.puml
 !includeurl Extras/misc/zuplo/all.puml
+!includeurl Extras/misc/dreamhost/all.puml
 !includeurl Extras/common.puml
 !includeurl Extras/sketchy.puml
 
@@ -36,9 +37,11 @@ AzureExtrasBlobStorage(storage2, "storage-account", "Standard LRS", #2322f2)
 AzureExtrasStaticWebApp(swa, "static-web-app", "Angular")
 AzureExtrasStaticWebApp(swa2, "static-web-app", "Angular", #f352f2)
 
-AzureExtrasDNS(dns, "dns-server", "Azure DNS\nCNAME\nwww.contoso.com")
+AzureExtrasDNS(dns, "dns-server", "CNAME www.contoso.com")
 AzureExtrasDNS(dns2, "dns-server", "Standard DNS", #010010)
 AzureExtrasApplicationGateway(appgw, "app-gateway", "Standard_v2")
 AzureExtrasApplicationGateway(appgw2, "app-gateway", "Standard_v2", #990000)
+
+DreamhostDNS(dreamhost, "dreamhost", "CNAME www.contoso.com")
 
 @enduml

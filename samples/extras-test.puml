@@ -7,6 +7,7 @@
 !includeurl Extras/azure/azure-extras.puml
 !includeurl Extras/azure/containers.puml
 !includeurl Extras/azure/databases.puml
+!includeurl Extras/azure/networking.puml
 !includeurl Extras/azure/storage.puml
 !includeurl Extras/azure/web.puml
 !includeurl Extras/misc/misc-extras.puml
@@ -34,5 +35,10 @@ AzureExtrasBlobStorage(storage2, "storage-account", "Standard LRS", #2322f2)
 
 AzureExtrasStaticWebApp(swa, "static-web-app", "Angular")
 AzureExtrasStaticWebApp(swa2, "static-web-app", "Angular", #f352f2)
+
+AzureExtrasDNS(dns, "dns-server", "Azure DNS\nCNAME\nwww.contoso.com")
+AzureExtrasDNS(dns2, "dns-server", "Standard DNS", #010010)
+AzureExtrasApplicationGateway(appgw, "app-gateway", "Standard_v2")
+AzureExtrasApplicationGateway(appgw2, "app-gateway", "Standard_v2", #990000)
 
 @enduml

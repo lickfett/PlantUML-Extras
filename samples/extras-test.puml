@@ -32,4 +32,7 @@ AzureExtrasSqlDatabase(sql, "sql-db", "Basic / 5 DTUs")
 AzureExtrasBlobStorage(storage, "storage-account", "Standard LRS")
 AzureExtrasBlobStorage(storage2, "storage-account", "Standard LRS", #2322f2)
 
+AzureExtrasStaticWebApp(swa, "static-web-app", "Angular")
+AzureExtrasStaticWebApp(swa2, "static-web-app", "Angular", #f352f2)
+
 @enduml

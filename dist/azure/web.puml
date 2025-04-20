@@ -7,6 +7,13 @@ EKZCLDxrtQ8I7CJ-JWJFocuM7Jz96p-E1g9X9gl4UT7lnACXjwbdftwPF1f5xXFdw_KwGsZ5PGkJZXyS
 gq38vaH7o3C2PhB9Xty
 }
 
+sprite $AzureStaticWebAppSprite [70x70/16z] {
+xP5BibiX44CbclP__-jD2L4aURp9BVzjDBe-Y0Dki2qhAx6xAW7bSBaoUrakr-PioxNvpt8wRihfLykPs1IUVxESi377LxUSiJ7dExpH5NbDo_xgoBAxEilY
+BCkoL20QCI0OG3LX9yKaWUA5yjEYiXj85tkv3XBfaq9LdpjPsBuAsbfe9y5EQYVUJdiBa9D5DGEsnY0ekXC7JjYhucHfrqtjWNWPXA6wllKdgkI1ujN9ejFQ
+BO5CjUqA594wXhEZ27tJoI93sqT4QvYmZQEMyNI9Hf8YiqK7-SOas5-_0h8LwJsyC0cHoU8VOthH2TMjVPvU4ub19ajf3SDiXExcg4rajbICST0a-Z87AJ_8
+R4dIuo1Z48-3h8F489FbgYpBiYpB_kh8ajTAKXR6bI4sPMNb3m
+}
+
 AzureExtrasEntityColoring(AzureExtrasApiManagement)
 !definelong AzureExtrasApiManagement(e_alias, e_label, e_techn) 
 AzureExtrasColorEntity(e_alias, e_label, e_techn, AzurePuml/Web/AzureAPIManagement.png, Azure API Management)
@@ -14,4 +21,14 @@ AzureExtrasColorEntity(e_alias, e_label, e_techn, AzurePuml/Web/AzureAPIManageme
 
 !definelong AzureExtrasApiManagement(e_alias, e_label, e_techn, e_color) 
 AzureExtrasMonoEntity(e_alias, e_label, e_techn, e_color, AzureAPIManagementSprite, Azure API Management)
+!enddefinelong
+
+' repurpose DNSServer sprite for Static Web App
+AzureExtrasEntityColoring(AzureExtrasStaticWebApp)
+!definelong AzureExtrasStaticWebApp(e_alias, e_label, e_techn) 
+AzureExtrasColorEntity(e_alias, e_label, e_techn, AzurePuml/Networking/AzureDNSServer.png, Azure Static Web App)
+!enddefinelong
+
+!definelong AzureExtrasStaticWebApp(e_alias, e_label, e_techn, e_color) 
+AzureExtrasMonoEntity(e_alias, e_label, e_techn, e_color, AzureStaticWebAppSprite, Azure Static Web App)
 !enddefinelong

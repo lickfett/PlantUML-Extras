@@ -1,0 +1,13 @@
+sprite $AzureBlobStorageSprite [70x70/16z] {
+xT853WCn34JH92QfzpzmPL4PHfCKTlqEy0DsmvGoX39QiY1fLeBbV2NzSwKgLL5QLZejAuCslz9XzoeDzcULgj2o8hG55GNThGHiPQKgkkmk2fk_kqexhtY0
+_5xb0DjUnLPLZAXC_nTpaDrKA5anshoA64bQ6gI6AUK8
+}
+
+AzureExtrasEntityColoring(AzureExtrasBlobStorage)
+!definelong AzureExtrasBlobStorage(e_alias, e_label, e_techn) 
+AzureExtrasColorEntity(e_alias, e_label, e_techn, AzurePuml/Storage/AzureBlobStorage.png, Azure Blob Storage)
+!enddefinelong
+
+!definelong AzureExtrasBlobStorage(e_alias, e_label, e_techn, e_color) 
+AzureExtrasMonoEntity(e_alias, e_label, e_techn, e_color, AzureBlobStorageSprite, Azure Blob Storage)
+!enddefinelong

@@ -1,0 +1,6 @@
+Auth0EntityColoring(Auth0)
+
+!definelong Auth0(e_alias, e_label, e_techn)
+ExtrasEntity(e_alias, e_label, e_techn, Extras/misc/auth0/auth0-icon.png, Auth0)
+!enddefinelong
+

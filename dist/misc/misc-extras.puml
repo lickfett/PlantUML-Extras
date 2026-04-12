@@ -8,6 +8,5 @@ skinparam rectangle<<e_stereo>> {
 !definelong Auth0EntityColoring(e_stereo)
 skinparam rectangle<<e_stereo>> {
     BackgroundColor DEFAULT_BG_COLOR
-    BorderColor #EB5424
 }
 !enddefinelong

@@ -4,6 +4,3 @@ Auth0EntityColoring(Auth0)
 ExtrasEntity(e_alias, e_label, e_techn, Extras/misc/auth0/auth0.png, Auth0)
 !enddefinelong
 
-!definelong Auth0(e_alias, e_label, e_techn, e_color)
-ExtrasEntity(e_alias, e_label, e_techn, Extras/misc/auth0/auth0.png, Auth0)
-!enddefinelong

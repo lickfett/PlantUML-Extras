@@ -2,7 +2,7 @@
 
 ' swap comments for local
 ' !define Extras https://raw.githubusercontent.com/lickfett/PlantUML-Extras/refs/heads/main/dist
-!define Extras dist
+!define Extras ../dist
 
 !includeurl Extras/azure/azure-extras.puml
 !includeurl Extras/azure/containers.puml
@@ -13,6 +13,7 @@
 !includeurl Extras/misc/misc-extras.puml
 !includeurl Extras/misc/zuplo/all.puml
 !includeurl Extras/misc/dreamhost/all.puml
+!includeurl Extras/misc/auth0/all.puml
 !includeurl Extras/common.puml
 !includeurl Extras/sketchy.puml
 
@@ -43,5 +44,7 @@ AzureExtrasApplicationGateway(appgw, "app-gateway", "Standard_v2")
 AzureExtrasApplicationGateway(appgw2, "app-gateway", "Standard_v2", #990000)
 
 DreamhostDNS(dreamhost, "dreamhost", "CNAME www.contoso.com")
+
+Auth0(auth0, "auth0-tenant", "Universal Login")
 
 @enduml

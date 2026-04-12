@@ -17,6 +17,7 @@ skinparam rectangle<<e_stereo>> {
 rectangle "==e_label\n//<size:TECHN_FONT_SIZE>e_stereo</size>//\n<img:e_img{scale=0.8}>\n//<size:TECHN_FONT_SIZE>e_techn</size>//" <<e_stereo>> <<extra>> as e_alias
 !enddefinelong
 
+' Generic mono sprite rendering for misc widgets (parallel to AzureExtrasMonoEntity)
 !definelong ExtrasMonoEntity(e_alias, e_label, e_techn, e_color, e_sprite, e_stereo)
 rectangle "==e_label\n//<size:TECHN_FONT_SIZE>e_stereo</size>//\n<color:e_color><$e_sprite{scale=0.8}></color>\n//<size:TECHN_FONT_SIZE>e_techn</size>//" <<e_stereo>> <<extra>> as e_alias
 !enddefinelong
